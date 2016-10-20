@@ -1,4 +1,7 @@
 {
     "require": {
+    },
+    "autoload": {
+        "classmap": ["vendor/yy/"]
     }
 }

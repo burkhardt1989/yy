@@ -6,4 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Yy' => $vendorDir . '/yy/Yy.php',
+    'yy\\base\\Application' => $vendorDir . '/yy/base/Application.php',
+    'yy\\base\\BaseYy' => $vendorDir . '/yy/base/BaseYy.php',
+    'yy\\base\\Object' => $vendorDir . '/yy/base/Object.php',
+    'yy\\di\\Container' => $vendorDir . '/yy/di/Container.php',
+    'yy\\di\\ServiceLocator' => $vendorDir . '/yy/di/ServiceLocator.php',
+    'yy\\web\\Application' => $vendorDir . '/yy/web/Application.php',
 );
