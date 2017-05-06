@@ -25,11 +25,16 @@ class Object
 	}
 
 	public static function configure($object, $properties)
-    {
-        foreach ($properties as $name => $value) {
-            $object->$name = $value;
-        }
+	{
+		foreach ($properties as $name => $value) {
+			$object->$name = $value;
+		}
 
-        return $object;
-    }
+		return $object;
+	}
+
+	public function __construct()
+	{
+		
+	}
 }

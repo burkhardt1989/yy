@@ -11,9 +11,11 @@ class ComposerStaticInit25b1ac267ef076913a0f2ef6c42dd89c
         'yy\\base\\Application' => __DIR__ . '/..' . '/yy/base/Application.php',
         'yy\\base\\BaseYy' => __DIR__ . '/..' . '/yy/base/BaseYy.php',
         'yy\\base\\Object' => __DIR__ . '/..' . '/yy/base/Object.php',
+        'yy\\base\\Request' => __DIR__ . '/..' . '/yy/base/Request.php',
         'yy\\di\\Container' => __DIR__ . '/..' . '/yy/di/Container.php',
         'yy\\di\\ServiceLocator' => __DIR__ . '/..' . '/yy/di/ServiceLocator.php',
         'yy\\web\\Application' => __DIR__ . '/..' . '/yy/web/Application.php',
+        'yy\\web\\Request' => __DIR__ . '/..' . '/yy/web/Request.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

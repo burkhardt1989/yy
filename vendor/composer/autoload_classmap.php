@@ -10,7 +10,9 @@ return array(
     'yy\\base\\Application' => $vendorDir . '/yy/base/Application.php',
     'yy\\base\\BaseYy' => $vendorDir . '/yy/base/BaseYy.php',
     'yy\\base\\Object' => $vendorDir . '/yy/base/Object.php',
+    'yy\\base\\Request' => $vendorDir . '/yy/base/Request.php',
     'yy\\di\\Container' => $vendorDir . '/yy/di/Container.php',
     'yy\\di\\ServiceLocator' => $vendorDir . '/yy/di/ServiceLocator.php',
     'yy\\web\\Application' => $vendorDir . '/yy/web/Application.php',
+    'yy\\web\\Request' => $vendorDir . '/yy/web/Request.php',
 );

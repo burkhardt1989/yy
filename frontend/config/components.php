@@ -7,4 +7,7 @@ return [
 		'password' => '',
 		'charset' => 'utf8',
 	],
+	'request' => [
+		'class' => '\yy\web\Request',
+	],
 ];

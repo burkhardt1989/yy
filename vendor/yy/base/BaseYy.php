@@ -11,15 +11,10 @@ class BaseYy extends Object
 	public $version = '0.01';
 
 	public static $container;
+	public static $components;
 
-	public static $serviceLocator;
-
-	public function __construct($config = [])
+	public function __construct()
 	{
-		$this->container = new Container();
-		foreach ($config as $name => $value) {
-			$this->name = $value;
-		}
 	}
 
 	public static function createApplication($class, $config)
